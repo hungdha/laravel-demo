@@ -1,0 +1,20 @@
+{
+    "name": "websanova/demo",
+    "description": "Demo package for Websanova article.",
+    "keywords": ["laravel", "demo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "websanova",
+            "email": "rob@websanova.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Websanova\\Demo\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
