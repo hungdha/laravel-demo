@@ -1,1 +1,2 @@
-Demo package for Websanova article.
+# Demo Laravel Package
+

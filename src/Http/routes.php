@@ -12,4 +12,13 @@ Route::get('demo/view', function () {
 	return view('websanova-demo::index');
 });
 
+Route::get('demo/config', function () {
+	return config('websanova-demo-main.hello') . 
+		   config('websanova-demo-main.world');
+});
+
+Route::get('demo/model', function () {
+	dd(\Websanova\Demo\Models\Item::get());
+});
+
 Route::get('demo', 'Websanova\Demo\Http\DemoController@index');

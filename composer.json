@@ -9,6 +9,11 @@
             "email": "rob@websanova.com"
         }
     ],
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "Websanova\\Demo\\": "src/"
