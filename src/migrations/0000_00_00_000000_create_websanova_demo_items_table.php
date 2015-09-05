@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class WebsanovaDemoCreateItemsTable extends Migration
+class CreateWebsanovaDemoItemsTable extends Migration
 {
 	public function up()
 	{

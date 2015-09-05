@@ -4,7 +4,7 @@ namespace Websanova\Demo\Seeds;
 
 use Illuminate\Database\Seeder;
 
-class WebsanovaDemoSeeder extends Seeder
+class DemoSeeder extends Seeder
 {
     public function run()
     {
