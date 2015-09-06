@@ -2,9 +2,9 @@
 
 namespace Websanova\Demo\Http;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller as BaseController;
 
-class DemoController extends Controller
+class DemoController extends BaseController
 {
     public function index()
     {
