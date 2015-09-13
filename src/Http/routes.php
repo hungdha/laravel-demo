@@ -21,4 +21,4 @@ Route::get('demo/model', function () {
 	dd(\Websanova\Demo\Models\Item::get());
 });
 
-Route::get('demo', 'Websanova\Demo\Http\DemoController@index');
+Route::get('demo', '\Websanova\Demo\Http\DemoController@index');
